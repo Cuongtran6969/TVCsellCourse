@@ -741,7 +741,7 @@ function directCourseDetail() {
     courseItem.addEventListener('click', ()=> {
      let courseIndex = parseInt(courseItem.getAttribute("data-course-index"))
      let selectedCourse = popularCourses.find(course => course.courseIndex === courseIndex)
-     window.location.href = `https://cuongtran6969.github.io/course.html?courseIndex=`+encodeURIComponent(courseIndex)
+     window.location.href = `https://cuongtran6969.github.io/TVCsellCourse/course.html?courseIndex=`+encodeURIComponent(courseIndex)
     })
   })
 }
