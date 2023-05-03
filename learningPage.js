@@ -2209,7 +2209,7 @@ const urlParamsArr = urlParams.split('=')
 const courseIndex = parseInt(urlParamsArr[urlParamsArr.length - 1]);
 
 let linkPrevPage = document.querySelector('.prev_page-btn')
-linkPrevPage.href = `https://cuongtran6969.github.io/TVCsellCourse/courseDetail.html?courseIndex=`+encodeURIComponent(courseIndex+1)
+linkPrevPage.href = `https://cuongtran6969.github.io/TVCsellCourse/course.html?courseIndex=`+encodeURIComponent(courseIndex+1)
 
 
 console.log(courseIndex);
