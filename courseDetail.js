@@ -1716,8 +1716,9 @@ const popularCourses = [
    },
 ]
 //get index from url 
-const urlParams = new URLSearchParams(window.location.hash.split('?')[1]);
-const courseIndex = parseInt(urlParams.get('courseIndex'))-1;
+const urlParams = window.location.href;
+const urlParamsArr = urlParams.split('=')
+const courseIndex = parseInt(urlParamsArr[urlParamsArr.length - 1])-1;
 function actionNavMenu() {
     let settingAccountBtn = document.querySelector('.setting_account-btn')
     let subMenu = document.querySelector('.nav_menu-subList')
