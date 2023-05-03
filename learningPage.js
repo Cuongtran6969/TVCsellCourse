@@ -2208,7 +2208,7 @@ const urlParams = new URLSearchParams(window.location.hash.split('?')[1]);
 const courseIndex = urlParams.get('courseIndex')===null?0:urlParams.get('courseIndex');
 
 let linkPrevPage = document.querySelector('.prev_page-btn')
-linkPrevPage.href = `https://cuongtran6969.github.io/?courseIndex=`+encodeURIComponent(courseIndex+1)
+linkPrevPage.href = `https://cuongtran6969.github.io/TVCsellCourse/courseDetail.html?courseIndex=`+encodeURIComponent(courseIndex+1)
 
 
 console.log(courseIndex);
