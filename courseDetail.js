@@ -2026,7 +2026,7 @@ function previewVideo(index) {
 function directionLearningPage() {
     let letLearningBtn = document.querySelector('.course__preview-learn')
     console.log(letLearningBtn);
-         window.location.href = `https://cuongtran6969.github.io/learningPage.html?courseIndex=`+encodeURIComponent(courseIndex)
+         window.location.href = `https://cuongtran6969.github.io/TVCsellCourse/learningPage.html?courseIndex=`+encodeURIComponent(courseIndex)
 }
 let showMenuBtn = document.querySelector('.show_nav i')
 let navLink = document.getElementById('menu_links')
