@@ -2204,8 +2204,9 @@ const popularCourses = [
      "courseLearned":false
    },
 ]
-const urlParams = new URLSearchParams(window.location.hash.split('?')[1]);
-const courseIndex = urlParams.get('courseIndex')===null?0:urlParams.get('courseIndex');
+const urlParams = window.location.href;
+const urlParamsArr = urlParams.split('=')
+const courseIndex = parseInt(urlParamsArr[urlParamsArr.length - 1]);
 
 let linkPrevPage = document.querySelector('.prev_page-btn')
 linkPrevPage.href = `https://cuongtran6969.github.io/TVCsellCourse/courseDetail.html?courseIndex=`+encodeURIComponent(courseIndex+1)
