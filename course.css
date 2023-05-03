@@ -1,0 +1,19 @@
+/* nav.container {
+    display: flex;
+    justify-content: center;
+}
+#menu_links {
+    display: none;
+}
+nav.container .logo {
+    position: absolute;
+    left: 5rem;
+}
+.nav_search {
+    width: 40%;
+    display: block;
+}
+nav .nav_search i {
+    top: 0;
+    background-color: rgba(102, 117, 148, 0.295);
+} */

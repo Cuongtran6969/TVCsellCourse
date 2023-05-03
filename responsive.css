@@ -1,0 +1,310 @@
+@media (max-width: 1130px) {
+    .container  {
+        padding: 0 5rem;
+    }
+    nav .logo .logo_name {
+        /* font-size: 20px; */
+    }
+    nav #menu_links > li > a {
+        font-size: 1.5rem;
+        padding: 1.5rem 1rem;
+    }
+    #menu_links .has_child::after,
+    #menu_links ul.sub_menu .has_child::after {
+        font-size: 1rem;
+    }
+    nav .nav_search .input_box {
+        font-size: 1.4rem;
+    }
+    .comment__header--title {
+        width: 50%;
+    }
+    .comment__header--desc {
+        display: -webkit-box;
+       -webkit-box-orient: vertical;
+       -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .wrapper-comments {
+        grid-auto-columns: 35%;
+        grid-gap: 2rem;
+    }
+    .footer-col {
+        width: 33.33333%;
+    }
+    .col-full {
+        width: 100% !important;
+    }
+    .mb-30 {
+         margin-bottom: 3rem;
+    }
+    .course-wrapper {
+        flex-wrap: wrap;
+    }
+    .course__info,
+    .course__preview {
+        width: 100%;
+    }
+    .course__preview {
+        margin-left: 0;
+    }
+    .course__preview-img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .course__preview-img img {
+        width: 100%;
+    }
+    /* learning page */
+
+    .learning__video-nav {
+        right: unset;
+        left: 0;
+        width: 50%;
+        bottom: 0;
+        z-index: 100;
+    }
+    .learning__video-nav-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .learning__video-content {
+        width: 100%;
+    }
+    .learning__lesson-nav {
+        right: unset;
+        left: 0;
+    }
+    .learning__action-nav {
+        justify-content: flex-end;
+        height: 6rem;
+        padding: 0 1rem;
+    }
+    .overlay-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,.2);
+        z-index: 0;
+        display: none;
+        z-index: 2;
+    }
+    .overlay-screen.showOverlay {
+        display: block;
+    }
+    .learning__video-nav {
+        display: none;
+    }
+    .learning__video-nav.showNav {
+        display: block;
+        z-index: 3;
+    }
+    .learning__video-nav-header i {
+        display: block;
+    }
+    .learning__video-box {
+        background-color: #000;
+        overflow: hidden;
+        position: relative;
+        padding-top: 56.25% !important;
+        height: unset;
+     }
+     #learning__video-now {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100% !important;
+        height: 100% !important;
+     }
+}
+
+@media (max-width: 880px) {
+    .container {
+        padding: 0 2rem
+    }
+    .logo {
+        display: none;
+    }
+    .nav_menu-btn {
+        width: 8%;
+        justify-content: flex-start;
+        display: block;
+    }
+    nav .nav_search .nav_search-removeBtn {
+        font-size: 1.8rem;
+    }
+     nav .nav_search {
+        width: 60%;
+     }
+     .nav_menu-user {
+        width: 10%;
+     }
+     .nav_menu-user-account {
+        display: none;
+     }
+     .nav_menu-myLearn {
+        display: none;
+     }
+    .slide-right >a >img {
+        display: none;
+    }
+    .swiper-slide {
+       justify-content: center;
+    }
+    .swiper-slide .slide-left p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+         overflow: hidden;
+    }
+    .popular-courses .courses-title {
+        font-size: 2rem;
+    }
+    .popular-header .popular-des {
+        font-size: 1.2rem; 
+        width: 70%;
+    }
+    .popular-button {
+        font-size: 1.2rem;
+        min-width: 10rem;
+        padding: 1rem 0;
+     } 
+     .comment__header--title {
+        width: 70%;
+        font-size: 2rem;
+     }
+     .comment__header--desc {
+        font-size: 1.2rem;
+     }
+    .wrapper-comments {
+        grid-auto-columns: 45%;
+    }
+    .form-letter .form-input {
+        width: 100%;
+    }
+    .form-btn {
+        padding: 0 1rem;
+    }
+    .footer-col {
+       width: 50%;
+    }
+    .footer-col.mt-30 {
+        margin-top: 3rem;
+    }
+    .footer__app {
+        display: block;
+    }
+    .course__preview-img {
+        display: none;
+    }
+    .preview-primary {
+        display: none;
+    }
+    .preview-second {
+        display: flex;
+    }
+    .course__preview {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        margin-left: 0;
+        border: 1px solid#9a9a9a6d;
+        border-radius: 0.5rem;
+    }
+    .course__preview ul li {
+        margin-top: 1rem;
+    }
+    .curr-header ul li:nth-child(3) {
+        margin-left: -0.5rem;
+    }
+    .curr-header ul li:first-child,
+    .curr-header ul li:nth-child(2) {
+        display: none;
+    }
+    .curr-header ul li:nth-child(3) strong {
+        margin-right: 1rem;
+    }
+    .curr-header ul li:nth-child(5) strong {
+        margin-left: 1rem;
+    }
+    .curr-header {
+        flex-direction: column;
+    }
+    .curr-extent-btn {
+        margin-top: 2rem;
+    }
+    .curr__lesson-panel .curr__lesson-name {
+        font-size: 1.5rem;
+    }
+    #learning__video-now {
+        padding: 0;
+     }
+     .learning__lesson-nav {
+        width: auto;
+     }
+     .learning__lesson-name {
+        display: none;
+        width: fit-content;
+     }
+     .learning__video-nav {
+        width: 100%;
+     }
+     
+     /* .nav_search {
+        display: none;
+     } */
+     
+}
+@media (max-width: 400px) {
+    nav .nav_search {
+        width: 70%;
+    }
+    .landingPage .header__course-title {
+        font-size: 1.3rem;
+    }
+    .header__learning-progress {
+        margin-left: 1rem;
+    }
+    .prev_page-btn i {
+        padding: 1.5rem;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+    .wrapper-comments {
+        grid-auto-columns: 80%;
+        grid-gap: 2rem;
+    }
+    .comment-text p {
+        font-size: 1.2rem;
+    }
+    .topic-list li {
+        flex-basis: 100%;
+    }
+    .leanring__video-info {
+        padding: 0 2rem;
+    }
+    .leanring__video-info .leanring__video-name {
+        font-size: 2rem;
+    }
+    .leanring__video-info h4 {
+        font-size: 1.2rem;
+    }
+    .leanring__video-info ul li {
+        font-size: 1.2rem;
+    }
+    nav .nav_search .input_box {
+        width: 70%;
+    }
+    .learning__lesson-prev, .learning__lesson-next {
+        font-size: 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+
+}

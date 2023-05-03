@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVC Course</title>
+      <!-- Link Swiper's CSS -->
+    <link rel="icon" 
+     type="image/png" 
+     href="./img/logoTab.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./course.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div id="header">
+        <nav class="container">
+            <div class="nav_menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <a href="http://127.0.0.1:5501/index.html" class="logo">
+                <h2 class="logo_name">TVCdev</h2>
+            </a>
+            <div class="nav_search">
+                <i class="fa-solid fa-magnifying-glass nav_search-searchBtn"></i>
+                <input type="text" placeholder="Tìm kiếm khóa học, bài viết, video..." class="input_box">
+                <i class="fa-solid fa-xmark nav_search-removeBtn"></i>
+            </div>
+            
+             <div class="nav_menu">
+                    <div class="nav_overlay"></div>
+                     <div class="nav_menu-account">
+                        <div class="nav_menu-account-img">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="">
+                        </div>
+                        <div class="nav_menu-account-name">
+                            <span>Cường trần</span>
+                        </div>
+                     </div>
+                     <div class="nav_menu-list-wrap">
+                        <ul class="nav_menu-list">
+                           <li class="nav_menu-list-item">
+                            <a href="">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Trang cá nhân</span>
+                            </a>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-book-open"></i>
+                                    <span>Khóa học của tôi</span>
+                                </a>
+                            </li>
+                           </li>
+                        </ul>
+                        <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                              <a href="">
+                                <i class="fa-solid fa-house"></i>
+                                 <span>Trang chủ</span>
+                              </a>
+                            </li>
+                             <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-road"></i>
+                                     <span>Lộ trình</span>
+                                </a>
+                            </li>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <span>Khóa học</span>
+                                </a>
+                            </li>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-blog"></i>
+                                     <span>Lộ trình</span>
+                                </a>
+                            </li>
+                         </ul>
+                         <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                             <a href="">
+                                <i class="fa-solid fa-bookmark"></i> 
+                                 <span>Bìa viết đã lưu</span>
+                             </a>
+                            </li>
+                         </ul>
+                         <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                             <a href="">
+                                <i class="fa-solid fa-circle-info"></i>
+                                 <span>Giới thiệu</span>
+                             </a>
+                            </li>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-users"></i>
+                                    <span>Cơ hội việc làm</span>
+                                </a>
+                            </li>
+                            <li class="nav_menu-list-item setting_account-btn">
+                                <a href="">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                    <span>Cài đặt </span>
+                                </a>
+                                <ul class="nav_menu-subList" >
+                                    <li class="nav_menu-list-item">
+                                      <a href="">
+                                          <span>Cài đặt tài khoản</span>
+                                     </a>
+                                    </li>
+                                    <li class="nav_menu-list-item">
+                                      <a href="">
+                                          <span>Bảo mật đăng nhập</span>
+                                      </a>
+                                    </li>  
+                                    <li class="nav_menu-list-item">
+                                        <a href="">
+                                            <span>Thông báo</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav_menu-list-item">
+                                        <a href="">
+                                            <span>Quản lý tiếp thị liên kết</span>
+                                        </a>
+                                    </li>    
+                                </ul>
+                            </li>
+                         </ul>
+                         <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                              <a href="">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                 <span>Đăng xuất</span>
+                              </a>
+                            </li>
+                         </ul>
+                     </div>
+             </div>
+            <div class="nav_menu-user">
+                <div class="">
+                    <button class="nav_menu-myLearn">Khóa học của tôi</button>
+                </div>
+                <div class="nav_menu-user-notifi">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="nav_menu-user-account">
+                    <div class="account-image">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-50 course-wrapper">
+         <!-- /course detail -->
+    </div>
+    <div class="preview__course">
+           <!-- <div class="preview__course-wrapper">
+              <h3>Giới thiệu khóa học</h3>
+              <h2>Kiến Thức Nhập Môn IT</h2>
+              <div class="preview__course-video"> -->
+                <!-- <iframe class="preview__course-video-play" width="560" height="315" src="https://www.youtube.com/embed/M62l1xA5Eu8?autoplay=1" allow='autoplay' allowfullscreen title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+              <!-- </div>
+              <div class="preview__course-close">
+                <i class="fa-solid fa-x"></i>
+              </div>
+           </div> -->
+    </div>
+    <div id="footer" class="mt-100 container">
+        <div class="footer-wrapper">
+            <div class="footer-col col-20 col-full mb-30">
+                <h3 class="footer__logo">
+                    <a href="">TVCdev</a>
+                </h3>
+                <p class="footer__des">Nullam nisi magna, tempor vita nulla sed,
+                portal sodaless tortor Aenean at sodaless portals.</p>
+                <div class="footer__social">
+                    <a href="" class="footer__icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="footer__icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="footer__icon"><i class="fa-brands fa-vimeo-v"></i></a>
+                    <a href="" class="footer__icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col mt-30 ">
+                <h3 class="footer-col__header">Links</h3>
+                <ul class="footer-col__links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Our Process</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col mt-30">
+                <h3 class="footer-col__header">Community</h3>
+                <ul class="footer-col__links">
+                    <li><a href="">Go Premium</a></li>
+                    <li><a href="">Team Plans</a></li>
+                    <li><a href="">Refer a Friend</a></li>
+                    <li><a href="">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-col mt-30">
+                <h3 class="footer-col__header">Resources</h3>
+                <ul class="footer-col__links">
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Latest Update</a></li>
+                    <li><a href="">Updates Newletter</a></li>
+                    <li><a href="">Flow Management</a></li>
+                </ul>
+            </div>
+            <div class="footer-col mt-30">
+                <div class="footer__app">
+                    <a href="" class="">
+                      <img src="./img/chPlay-app.png" alt="">
+                    </a>
+                    <a href="" class="">
+                      <img src="./img/appStore-app.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__certificate">
+                   <a href="">
+                      <img src="./img/dmca_logo.png" alt="">
+                   </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright Cuong tran TVCdev 24/2/2023, All right Reserved</p>
+        </div>
+    </div>
+    <a href="#" id="scroll-top" >
+        <i class="fa-sharp fa-solid fa-shuttle-space icon-scroll"></i>
+    </a>
+</body>
+<script src="./courseDetail.js"></script>
+<script src="./app.js"></script>
+</html>

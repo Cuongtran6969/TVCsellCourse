@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVC Home</title>
+     <!-- Link Swiper's CSS -->
+     <link rel="icon" 
+     type="image/png" 
+     href="./img/logoTab.jpg">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div id="header">
+        <nav class="container">
+            <div class="nav_menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <a href="http://127.0.0.1:5501/index.html" class="logo">
+                <h2 class="logo_name">TVCdev</h2>
+            </a>
+            <div class="nav_search">
+                <i class="fa-solid fa-magnifying-glass nav_search-searchBtn"></i>
+                <input type="text" placeholder="Tìm kiếm khóa học, bài viết, video..." class="input_box">
+                <i class="fa-solid fa-xmark nav_search-removeBtn"></i>
+            </div>
+            
+             <div class="nav_menu">
+                    <div class="nav_overlay"></div>
+                     <div class="nav_menu-account">
+                        <div class="nav_menu-account-img">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="">
+                        </div>
+                        <div class="nav_menu-account-name">
+                            <span>Cường trần</span>
+                        </div>
+                     </div>
+                     <div class="nav_menu-list-wrap">
+                        <ul class="nav_menu-list">
+                           <li class="nav_menu-list-item">
+                            <a href="">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Trang cá nhân</span>
+                            </a>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-book-open"></i>
+                                    <span>Khóa học của tôi</span>
+                                </a>
+                            </li>
+                           </li>
+                        </ul>
+                        <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                              <a href="">
+                                <i class="fa-solid fa-house"></i>
+                                 <span>Trang chủ</span>
+                              </a>
+                            </li>
+                             <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-road"></i>
+                                     <span>Lộ trình</span>
+                                </a>
+                            </li>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <span>Khóa học</span>
+                                </a>
+                            </li>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-blog"></i>
+                                     <span>Lộ trình</span>
+                                </a>
+                            </li>
+                         </ul>
+                         <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                             <a href="">
+                                <i class="fa-solid fa-bookmark"></i> 
+                                 <span>Bìa viết đã lưu</span>
+                             </a>
+                            </li>
+                         </ul>
+                         <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                             <a href="">
+                                <i class="fa-solid fa-circle-info"></i>
+                                 <span>Giới thiệu</span>
+                             </a>
+                            </li>
+                            <li class="nav_menu-list-item">
+                                <a href="">
+                                    <i class="fa-solid fa-users"></i>
+                                    <span>Cơ hội việc làm</span>
+                                </a>
+                            </li>
+                            <li class="nav_menu-list-item setting_account-btn">
+                                <a href="">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                    <span>Cài đặt </span>
+                                </a>
+                                <ul class="nav_menu-subList" >
+                                    <li class="nav_menu-list-item">
+                                      <a href="">
+                                          <span>Cài đặt tài khoản</span>
+                                     </a>
+                                    </li>
+                                    <li class="nav_menu-list-item">
+                                      <a href="">
+                                          <span>Bảo mật đăng nhập</span>
+                                      </a>
+                                    </li>  
+                                    <li class="nav_menu-list-item">
+                                        <a href="">
+                                            <span>Thông báo</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav_menu-list-item">
+                                        <a href="">
+                                            <span>Quản lý tiếp thị liên kết</span>
+                                        </a>
+                                    </li>    
+                                </ul>
+                            </li>
+                         </ul>
+                         <ul class="nav_menu-list">
+                            <li class="nav_menu-list-item">
+                              <a href="">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                 <span>Đăng xuất</span>
+                              </a>
+                            </li>
+                         </ul>
+                     </div>
+             </div>
+            <div class="nav_menu-user">
+                <div class="">
+                    <button class="nav_menu-myLearn">Khóa học của tôi</button>
+                </div>
+                <div class="nav_menu-user-notifi">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="nav_menu-user-account">
+                    <div class="account-image">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="banner" class=" container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-one">
+                    <div class="slide-left">
+                        <h2 class="slide-title">Học ReactJs miễn phí</h2>
+                        <p calss="slide-des">Click on the download button to directly 
+                          download all source code files of Responsive Drop Down Menu with Sub Menu.
+                        </p>
+                        <a href="" class="slide-btn">Tìm hiểu thêm</a>
+                    </div>
+                    <div class="slide-right">
+                        <a href="" target="_blank">
+                            <img src="./img/Banner_01.png" class="slide-img" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-two">
+                    <div class="slide-left">
+                        <h2 class="slide-title">Thành Quả của Học Viên</h2>
+                        <p calss="slide-des">Để đạt được kết quả tốt trong mọi việc ta cần xác định mục 
+                            tiêu rõ ràng cho việc đó. Học lập trình cũng không là ngoại lệ.
+                        </p>
+                        <a href="" class="slide-btn">Xem thành quả</a>
+                    </div>
+                    <div class="slide-right">
+                        <a href="" target="_blank">
+                            <img src="./img/Banner_02.png" class="slide-img" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-three">
+                    <div class="slide-left">
+                        <h2 class="slide-title">TVCdev trên Youtube</h2>
+                        <p calss="slide-des">TVCdev được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho nghề IT và 
+                            có những con người yêu thích lập trình F8 sẽ ở đó.
+                        </p>
+                        <a href="" class="slide-btn">Truy cập kênh</a>
+                    </div>
+                    <div class="slide-right">
+                        <a href="" target="_blank">
+                            <img src="./img/Banner_03.png" class="slide-img" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-four">
+                    <div class="slide-left">
+                        <h2 class="slide-title">TVCdev và cộng đồng lập trình</h2>
+                        <p calss="slide-des">TVCdev được nhắc tới ở mọi nơi, ở đâu có cơ hội việc làm cho nghề IT 
+                            và có những con người yêu thích lập trình F8 sẽ ở đó.
+                        </p>
+                        <a href="" class="slide-btn">Truy cập Facebook</a>
+                    </div>
+                    <div class="slide-right">
+                        <a href="" target="_blank">
+                            <img src="./img/Banner_04.png" class="slide-img" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <div id="content" class="container">
+       <div class="popular-courses">
+          <h2 class="courses-title">Popular courses for you</h2>
+          <div class="popular-header">
+            <p class="popular-des">Get the best course with the best price with world-clss tutor</p>
+            <button class="popular-button">See All jobs</button>
+          </div>
+          <div class="courses-container">
+          </div>
+          <button class="popular-btn__more">More Course</button>
+       </div>
+       <div class="comments">
+          <div class="comment__header">
+             <h2 class="comment__header--title">What our students are saying about us</h2>
+             <p class="comment__header--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Porro eligendi asperiores laboriosam blanditiis facilis, aperiam voluptates officia qui
+                  minima quis nihil deserunt, dicta ex! Quidem ea rem consequuntur rerum magni!</p>
+          </div>
+          <div class="wrapper-comments">
+             <div class="comment-item">
+                <h4 class="comment-item--great">Greate platform</h4>
+                <div class="comment-body">
+                    <div class="comment-quotes">
+                        <i class="fa-solid fa-quote-right quotes-icon"></i>
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-text">
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Cumque magni ex at id corporis. Quod nam deleniti animi, ipsam commodi aut
+                              a voluptatem doloremque quam nulla unde, quidem ratione. Delectus.
+                              a voluptatem doloremque quam nulla unde, quidem ratione. Delectus.
+                            </p>
+                        </div>
+                        <div class="comment-user">
+                            <img src="./img/user1.jpg" alt="" class="comment-user__img">
+                            <div class="user-info">
+                                <span class="user-name">Kyle Mayars</span>
+                                    <div class="user-rate">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="comment-item">
+                <h4 class="comment-item--great">Greate platform</h4>
+                <div class="comment-body">
+                    <div class="comment-quotes">
+                        <i class="fa-solid fa-quote-right quotes-icon"></i>
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-text">
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Cumque magni ex at id corporis. Quod nam deleniti animi, ipsam commodi aut
+                              a voluptatem doloremque quam nulla unde, quidem ratione. Delectus.
+                            </p>
+                        </div>
+                        <div class="comment-user">
+                            <img src="./img/user1.jpg" alt="" class="comment-user__img">
+                            <div class="user-info">
+                                <span class="user-name">Kyle Mayars</span>
+                                    <div class="user-rate">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="comment-item">
+                <h4 class="comment-item--great">Greate platform</h4>
+                <div class="comment-body">
+                    <div class="comment-quotes">
+                        <i class="fa-solid fa-quote-right quotes-icon"></i>
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-text">
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Cumque magni ex at id corporis. Quod nam deleniti animi, ipsam commodi aut
+                              a voluptatem doloremque quam nulla unde, quidem ratione. Delectus.
+                            </p>
+                        </div>
+                        <div class="comment-user">
+                            <img src="./img/user1.jpg" alt="" class="comment-user__img">
+                            <div class="user-info">
+                                <span class="user-name">Kyle Mayars</span>
+                                    <div class="user-rate">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="comment-item">
+                <h4 class="comment-item--great">Greate platform</h4>
+                <div class="comment-body">
+                    <div class="comment-quotes">
+                        <i class="fa-solid fa-quote-right quotes-icon"></i>
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-text">
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Cumque magni ex at id corporis. Quod nam deleniti animi, ipsam commodi aut
+                              a voluptatem doloremque quam nulla unde, quidem ratione. Delectus.
+                            </p>
+                        </div>
+                        <div class="comment-user">
+                            <img src="./img/user1.jpg" alt="" class="comment-user__img">
+                            <div class="user-info">
+                                <span class="user-name">Kyle Mayars</span>
+                                    <div class="user-rate">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="comment-item">
+                <h4 class="comment-item--great">Greate platform</h4>
+                <div class="comment-body">
+                    <div class="comment-quotes">
+                        <i class="fa-solid fa-quote-right quotes-icon"></i>
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-text">
+                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                             Cumque magni ex at id corporis. Quod nam deleniti animi, ipsam commodi aut
+                              a voluptatem doloremque quam nulla unde, quidem ratione. Delectus.
+                            </p>
+                        </div>
+                        <div class="comment-user">
+                            <img src="./img/user1.jpg" alt="" class="comment-user__img">
+                            <div class="user-info">
+                                <span class="user-name">Kyle Mayars</span>
+                                    <div class="user-rate">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="newletter">
+        <h2>Subscribe Newsletter</h2>
+        <p>You learn and each tomorrow. 
+           Theroots of education are better but the fruits are sweet
+        </p>
+        <div class="form-letter">
+            <input type="text" class="form-input" placeholder="Enter your Email Address">
+            <button class="form-btn">Subcribes</button>
+        </div>
+       </div>
+    </div>
+    <a href="#" id="scroll-top" >
+        <i class="fa-sharp fa-solid fa-shuttle-space icon-scroll"></i>
+    </a>
+    <div id="footer" class="container">
+        <div class="footer-wrapper">
+            <div class="footer-col col-20 col-full mb-30">
+                <h3 class="footer__logo">
+                    <a href="">TVCdev</a>
+                </h3>
+                <p class="footer__des">Nullam nisi magna, tempor vita nulla sed,
+                portal sodaless tortor Aenean at sodaless portals.</p>
+                <div class="footer__social">
+                    <a href="" class="footer__icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="footer__icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="footer__icon"><i class="fa-brands fa-vimeo-v"></i></a>
+                    <a href="" class="footer__icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col mt-30 ">
+                <h3 class="footer-col__header">Links</h3>
+                <ul class="footer-col__links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Our Process</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col mt-30">
+                <h3 class="footer-col__header">Community</h3>
+                <ul class="footer-col__links">
+                    <li><a href="">Go Premium</a></li>
+                    <li><a href="">Team Plans</a></li>
+                    <li><a href="">Refer a Friend</a></li>
+                    <li><a href="">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-col mt-30">
+                <h3 class="footer-col__header">Resources</h3>
+                <ul class="footer-col__links">
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Latest Update</a></li>
+                    <li><a href="">Updates Newletter</a></li>
+                    <li><a href="">Flow Management</a></li>
+                </ul>
+            </div>
+            <div class="footer-col mt-30">
+                <div class="footer__app">
+                    <a href="" class="">
+                      <img src="./img/chPlay-app.png" alt="">
+                    </a>
+                    <a href="" class="">
+                      <img src="./img/appStore-app.png" alt="">
+                    </a>
+                </div>
+                <div class="footer__certificate">
+                   <a href="">
+                      <img src="./img/dmca_logo.png" alt="">
+                   </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright Cuong tran TVCdev 24/2/2023, All right Reserved</p>
+        </div>
+    </div>
+</body>
+<script src="./app.js" ></script>
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      spaceBetween: 30,
+      centeredSlides: true,
+      speed: 1500,
+      loop: true,
+      autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }
+    });
+  </script>
+</html>
