@@ -6,7 +6,7 @@ https://camo.githubusercontent.com/c8626937d147ba7805f0989930848b2065807daae2202
 
 🌱 I’m currently learning Javascrip, Java, NodeJs, ReactJs, .Net 
 
-📹 I create video tutorials on https://www.youtube.com/@codingwithusman7](https://www.youtube.com/channel/UCcY1MxmE0lqLKWPsvaYd-vw
+📹 I create video tutorials on https://www.youtube.com/channel/UCcY1MxmE0lqLKWPsvaYd-vw
 
 👨🏽‍🏫 Check out my courses on Web Development Getting started with iOS and 
 Android development a
@@ -14,7 +14,6 @@ Android development a
 💬 Ask me about iOS Native, React js cuongtvhe176258@fpt.edu.vn
 
 Connect with me:
-https://www.linkedin.com/in/usman-mukhtar-ba7650109/ https://www.youtube.com/@codingwithusman7
 
 Languages and Tools:
 amplify bootstrap css3 django docker figma firebase flask git html5 illustrator javascript jenkins kafka linux mysql pandas photoshop postgresql postman python rabbitMQ react redis sketch sqlite
